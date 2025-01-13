@@ -11,7 +11,7 @@ function Home() {
       className='headerContainer' 
       style={{ backgroundImage: `url( ${BannerImage})` }}>
         <h1> Nike online store </h1>
-        <p> NIKE SHOES TO EVERY OCASION </p>
+        <p> NIKE SHOES FOR EVERY OCCASION </p>
         <Link to="/products">
           <button> ORDER NOW </button>
         </Link>
