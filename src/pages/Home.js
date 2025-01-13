@@ -5,11 +5,11 @@ import '../styles/Home.css'
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='home' style={{ backgroundImage: `url( ${BannerImage})` }}>
       
       <div 
       className='headerContainer' 
-      style={{ backgroundImage: `url( ${BannerImage})` }}>
+      >
         <h1> Nike online store </h1>
         <p> NIKE SHOES FOR EVERY OCCASION </p>
         <Link to="/products">
