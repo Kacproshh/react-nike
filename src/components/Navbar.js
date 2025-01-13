@@ -19,14 +19,14 @@ function Navbar() {
         <div className='hiddenLinks'>
          <Link to="/"> Home </Link>
          <Link to="/products"> Products </Link>
-         <Link to="/about"> About </Link>
+         <Link to="/about"> About us </Link>
          <Link to="/contact"> Contact </Link>
         </div>
       </div>
       <div className='rightSide'>
         <Link to="/"> Home </Link>
         <Link to="/products"> Products </Link>
-        <Link to="/about"> About </Link>
+        <Link to="/about"> About us</Link>
         <Link to="/contact"> Contact </Link>
         <button onClick={toggleNavbar}>
             <ReorderIcon />

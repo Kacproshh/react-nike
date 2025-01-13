@@ -1,9 +1,21 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+import BannerImage from '../assets/nike.jpg'
+import '../styles/Home.css'
 
 function Home() {
   return (
-    <div>
-      Tu beda produkty
+    <div className='home'>
+      
+      <div 
+      className='headerContainer' 
+      style={{ backgroundImage: `url( ${BannerImage})` }}>
+        <h1> Nike online store </h1>
+        <p> NIKE SHOES TO EVERY OCASION </p>
+        <Link to="/products">
+          <button> ORDER NOW </button>
+        </Link>
+        </div> 
     </div>
   )
 }
